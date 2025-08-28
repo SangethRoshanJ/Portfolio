@@ -17,5 +17,13 @@ export default defineConfig({
         }
       }
     }
+  },
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom', 'framer-motion']
   }
 })
