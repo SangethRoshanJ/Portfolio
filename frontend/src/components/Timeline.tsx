@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 interface TimelineItemProps {
@@ -8,7 +7,7 @@ interface TimelineItemProps {
   description: string;
 }
 
-const TimelineItem: React.FC<TimelineItemProps> = ({ year, title, company, description }) => {
+const TimelineItem = ({ year, title, company, description }: TimelineItemProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -25,7 +24,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ year, title, company, descr
   );
 };
 
-const Timeline: React.FC<{ items: TimelineItemProps[] }> = ({ items }) => {
+const Timeline = ({ items }: { items: TimelineItemProps[] }) => {
   return (
     <div className="max-w-3xl mx-auto py-8">
       {items.map((item, index) => (

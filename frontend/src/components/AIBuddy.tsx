@@ -1,14 +1,14 @@
-import React from 'react';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 interface AIBuddyProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-const AIBuddy: React.FC<AIBuddyProps> = ({ isOpen, onClose }) => {
-  const [message, setMessage] = React.useState('');
-  const [response, setResponse] = React.useState('');
+const AIBuddy = ({ isOpen, onClose }: AIBuddyProps) => {
+  const [message, setMessage] = useState('');
+  const [response, setResponse] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
