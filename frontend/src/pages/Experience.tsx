@@ -5,37 +5,31 @@ import { motion } from 'framer-motion';
 const Experience = () => {
   const experiences = [
     {
-      year: "2024 - Present",
-      title: "Senior Business Analyst",
-      company: "Tech Solutions Ltd",
-      description: "Leading business analysis for enterprise-level AI implementations. Coordinating with stakeholders to define requirements and optimize business processes."
-    },
-    {
-      year: "2022 - 2024",
-      title: "Business Analyst",
-      company: "Digital Innovations Inc",
-      description: "Spearheaded process improvement initiatives resulting in 30% efficiency gain. Implemented data-driven decision-making frameworks."
-    },
-    {
-      year: "2021 - 2022",
-      title: "Junior Business Analyst",
-      company: "StartUp Tech",
-      description: "Conducted requirement gathering sessions and created detailed documentation. Assisted in implementing agile methodologies."
+      year: "Dec 2023 - Present",
+      title: "Programmer Analyst - Ariba Business Practice",
+      company: "CTS, Chennai",
+      description: `• Led business requirements analysis & stakeholder management across global teams
+      • Conducted data analysis using advanced analytics for critical decision-making
+      • Designed custom Ariba Forms achieving 50% reduction in request errors
+      • Created detailed functional specifications and technical documentation
+      • Managed end-to-end SAP Ariba Procurement solutions deployment
+      • Implemented quality assurance and risk mitigation strategies
+      • Developed custom approval flows and exception handling mechanisms`
     }
   ];
 
   const education = [
     {
-      year: "2020 - 2021",
-      title: "Master's in Business Analytics",
-      company: "University of Technology",
-      description: "Specialized in Data Analytics and Business Process Management. Graduated with distinction."
+      year: "Jan 2025 - Present",
+      title: "Executive MBA in Finance",
+      company: "Indian Institute of Technology, Patna",
+      description: "Focusing on AI-driven business transformation and financial analytics."
     },
     {
-      year: "2016 - 2020",
-      title: "Bachelor of Technology",
-      company: "Institute of Engineering",
-      description: "Major in Information Technology with focus on Business Systems."
+      year: "Aug 2019 - May 2023",
+      title: "Bachelor of Engineering in Civil",
+      company: "Sri Ramakrishna Engineering College, Coimbatore",
+      description: "Developed strong analytical and problem-solving skills through engineering education."
     }
   ];
 

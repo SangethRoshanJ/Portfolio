@@ -12,31 +12,36 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: "Enterprise Process Optimization",
-      description: "Led a team in implementing an AI-driven process optimization solution that reduced manual workload by 40% and improved accuracy by 25%.",
-      skills: ["Business Analysis", "Process Mapping", "AI Integration", "Change Management"],
+      title: "AI-Enhanced Source to Pay Platform",
+      description: `• Analyzed multi-region procurement operations and designed optimized B&I workflows
+      • Worked with 200+ suppliers on PunchOut/CIF catalogs implementation
+      • Created analytics dashboards achieving 60% reduction in manual holds
+      • Implemented intelligent invoice exception handling with 45% improved accuracy`,
+      skills: ["Process Optimization", "Supplier Integration", "Analytics", "SAP Ariba"],
       type: "official",
-      impact: "40% reduction in processing time"
+      impact: "60% reduction in manual holds, 45% improvement in processing accuracy"
     },
     {
-      title: "Data Analytics Dashboard",
-      description: "Developed a comprehensive analytics dashboard for real-time monitoring of key business metrics and predictive analytics.",
-      skills: ["Data Analysis", "Dashboard Design", "SQL", "Power BI"],
+      title: "AI Procurement ChatBot",
+      description: `• Led requirements gathering and feature specification for procurement chatbot
+      • Implemented RAG architecture and advanced prompt engineering
+      • Executed LLM fine-tuning for procurement-specific queries
+      • Developed testing frameworks and performance monitoring systems`,
+      skills: ["AI Development", "RAG Architecture", "LLM Fine-tuning", "Prompt Engineering"],
       type: "official",
-      impact: "Improved decision-making time by 60%"
+      impact: "Streamlined procurement process automation"
     },
     {
-      title: "AI-Powered Portfolio Website",
-      description: "Personal project showcasing modern web development with AI integration for enhanced user experience.",
-      skills: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
-      type: "personal"
-    },
-    {
-      title: "Process Automation Tool",
-      description: "Created an automation tool for streamlining repetitive business processes using Python and machine learning.",
-      skills: ["Python", "Machine Learning", "Process Automation"],
-      type: "personal"
+      title: "Mars Ariba Integration",
+      description: `• Managed onboarding and integration of 15+ suppliers
+      • Coordinated process flows for orders, invoices, and confirmations
+      • Resolved critical incidents including price mismatches and ASN failures
+      • Ensured minimal business disruption through effective problem-solving`,
+      skills: ["Supplier Integration", "Process Management", "Issue Resolution", "SAP Ariba"],
+      type: "official",
+      impact: "Successfully integrated 15+ suppliers"
     }
+  ];
   ];
 
   return (

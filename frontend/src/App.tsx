@@ -10,7 +10,7 @@ import Certifications from './pages/Certifications'
 import Freelancing from './pages/Freelancing'
 
 function App() {
-  const [isAIBuddyOpen, setIsAIBuddyOpen] = useState(false)
+  const [isAIBuddyOpen, setIsAIBuddyOpen] = useState(true)
 
   return (
     <Router>
@@ -26,7 +26,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <AIBuddy isOpen={isAIBuddyOpen} onClose={() => setIsAIBuddyOpen(false)} />
+        <div className="fixed bottom-4 right-4 z-50">
+          <AIBuddy isOpen={isAIBuddyOpen} onClose={() => setIsAIBuddyOpen(false)} />
+        </div>
       </div>
     </Router>
   )
